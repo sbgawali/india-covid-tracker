@@ -1,0 +1,163 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#title {
+ /* text-align: center;*/
+  font-family: arial, sans-serif;
+}
+#headerTitle {
+  text-align: center;
+  color:grey;
+}
+#students {
+ /* text-align: center;*/
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  /*border: 3px solid #ddd;*/
+  border: 3px solid #ddd;
+  width: 50%;
+  margin:30px;
+}
+
+#students td, #students th {
+  border: 3px solid white;
+  padding: 8px;
+  color:grey
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /*text-align: center;*/
+  background-color: skyblue;
+  color:black;
+}
+.daily-text{
+  color: blue;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+
+}
+.deltadeaths-arrow,.death{
+font-size: 12px;
+color:red;
+}
+.dailyConfirmed-arrow,.confirmed{
+  font-size: 12px;
+  color:blue;
+}
+.deltarecovered-arrow, .recovered{
+  font-size: 12px;
+  color:green;
+}
+tr:last-child { color: red; font-weight: bold;background-color: skyblue; }
+
+table tr td:not(:first-child){ text-align: right }
+.summaryBtn{
+  height: 60px;
+  font-size: 12px;
+  background-color: skyblue;
+  color: blue;
+  margin:10px;
+}
+.summaryPanel{margin-left:30px;}
+.circle {
+  display: inline-block;
+  margin: 14px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  /*line-height: 500px;*/
+  text-align: center;
+  background:skyblue;
+  font-family: sans-serif;
+}
+.tcircle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: white;
+  /* line-height: 500px; */
+  text-align: center;
+  background: red;
+  margin-left: 63px;
+  /* margin-top: 56px; */
+  padding-top: 14%;
+  font-family: sans-serif;
+}
+
+.circle .circle-text {
+  padding-top: 8%;
+  color:black
+}
+.confirmed-c{
+ background-color: cornflowerblue;
+}
+.confirmed-cs{
+background-color: blue;
+}
+.active-c{
+background-color: #f7b769;
+}
+.active-cs{
+background-color: orangered;
+}
+.recovered-c{
+background-color: lightgreen;
+}
+.recovered-cs{
+background-color: green;
+}
+.deaths-c{
+background-color: lightpink;
+}
+.deaths-cs{
+background-color: red;
+}
+.sm-txt{
+  font-size: 12px;
+  text-transform: uppercase;
+}
