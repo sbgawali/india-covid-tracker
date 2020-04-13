@@ -53,23 +53,34 @@
   width: 50%;
   margin:30px;
 }
-
+#district{
+  border: 3px solid #ddd;
+  width: 100%;
+  margin:30px;
+}
+#district tr th {
+  width: 50%;
+}
+#district tr td {
+  width: 50%;
+}
 #students td, #students th {
   border: 3px solid white;
-  padding: 8px;
+  padding: 4px;
   color:grey
 }
 
 #students tr:nth-child(even){background-color: #f2f2f2;}
 
 #students tr:hover {background-color: #ddd;}
-
+#students tr th:first-child{width:30%}
 #students th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   /*text-align: center;*/
   background-color: skyblue;
   color:black;
+  width:18%
 }
 .daily-text{
   color: blue;
@@ -104,8 +115,8 @@ table tr td:not(:first-child){ text-align: right }
 .circle {
   display: inline-block;
   margin: 14px;
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   font-size: 20px;
   color: white;
@@ -115,8 +126,8 @@ table tr td:not(:first-child){ text-align: right }
   font-family: sans-serif;
 }
 .tcircle {
-  width: 60px;
-  height: 60px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   font-size: 16px;
   color: white;
@@ -125,7 +136,7 @@ table tr td:not(:first-child){ text-align: right }
   background: red;
   margin-left: 63px;
   /* margin-top: 56px; */
-  padding-top: 14%;
+  padding-top: 9%;
   font-family: sans-serif;
 }
 
@@ -134,7 +145,7 @@ table tr td:not(:first-child){ text-align: right }
   color:black
 }
 .confirmed-c{
- background-color: cornflowerblue;
+ background-color: #a2c0f7;
 }
 .confirmed-cs{
 background-color: blue;
@@ -152,7 +163,7 @@ background-color: lightgreen;
 background-color: green;
 }
 .deaths-c{
-background-color: lightpink;
+background-color: #f9c3c3;
 }
 .deaths-cs{
 background-color: red;
@@ -160,4 +171,17 @@ background-color: red;
 .sm-txt{
   font-size: 12px;
   text-transform: uppercase;
+}
+#SearchBox{
+  margin-left: 3%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
