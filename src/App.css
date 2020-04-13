@@ -73,7 +73,7 @@
 
 #students tr:nth-child(even){background-color: #f2f2f2;}
 
-#students tr:hover {background-color: #ddd;}
+/*#students tr:hover {background-color: #ddd;}*/
 #students tr th:first-child{width:30%}
 #students th {
   padding-top: 5px;
